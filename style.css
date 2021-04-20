@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    
+    font-family: Arial, Helvetica, sans-serif;
+  
+    background: url("/pozadina.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.navigacija ul li{
+
+    display: inline;
+    padding: 0 22px;
+    text-transform: none;
+    list-style-type: none;
+
+}
+
+.navigacija h1 {
+
+    font-size: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.navigacija {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 3%;
+    border-radius: 15px;
+    box-shadow: 13px 12px 11px rgb(0 0 0 / 27%);
+    background-color: rgba(41, 39, 39, 0.2);
+    
+}
+
+
+.info {
+
+    color: white;
+    word-spacing: 2px;
+
+
+}
+
+.narand {
+
+    color: orange;
+
+}
+
+.navigacija a {
+
+    color: orange;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.onama {
+
+    display: flex;
+    color: white;
+
+}
+
+.onama img {
+
+    display: block;
+    padding: 4% 2%;
+    
+
+}
+
+.textabout {
+
+
+    padding: 5% 6%;
+    margin: 0;
+
+}
+
+.textabout h2 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 11px;
+    color: orange;
+    font-size: 38px;
+
+}
+
+.textabout h3 {
+
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: medium;
+
+}
+
+.textabout p {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    word-spacing: 2px;
+
+}
+
+.column {
+
+    float: left;
+    width: 31%;
+    padding: 10px 1%;
+
+}
+
+.row::after {
+
+    content: "";
+    clear: both;
+    display: flex;
+    padding-bottom: 45px;
+
+}
+
+.column2 {
+
+    float: left;
+    width: 31%;
+    padding: 10px 1%;
+
+}
+
+.row2::after {
+
+    padding-top: 2%;
+    content: "";
+    clear: both;
+    display: flex;
+
+}
+
+.cjenovnik h1 {
+
+    text-align: center;
+    padding-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-underline-offset: 20px;
+
+    
+
+}
+
+.cjenovnik {
+    
+    padding-top: 30px;
+    background: rgba(25, 26, 25, 0.3);
+    
+
+}
+
+.lista a {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    display: inline-block;
+    position: relative;
+
+}
+
+.lista a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: orange;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.lista a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
